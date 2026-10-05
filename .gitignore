@@ -1,0 +1,15 @@
+# Dossiers de simulation ModelSim / Quartus / Vivado
+work/
+xsim.dir/
+.Xil/
+
+# Fichiers de sauvegarde et logs ModelSim / HDL
+*.sv.bak
+*.v.bak
+*.mpf
+*.mti
+*.wlf
+*.log
+*.jou
+*.pb
+*.vcd
