@@ -1,0 +1,36 @@
+# vsim -c tb_riscv_core -do "run -all; quit" 
+# Start time: 14:34:01 on Oct 10,2026
+# Loading sv_std.std
+# Loading work.tb_riscv_core
+# Loading work.riscv_pkg
+# Loading work.risc_core_sv_unit
+# Loading work.riscv_core
+# Loading work.memory
+# Loading work.decoder
+# Loading work.immediate_generator_sv_unit
+# Loading work.immediate_generator
+# Loading work.register_file
+# Loading work.control_unit_sv_unit
+# Loading work.control_unit
+# Loading work.alu_control_sv_unit
+# Loading work.alu_control
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.writeback_unit
+# Loading work.branch_unit
+# run -all
+# ========================================
+#     RISC-V RV32I MULTI-CYCLE CPU TEST
+# ========================================
+# PASS: ADD
+# PASS: SUB
+# PASS: ADDI
+# PASS: LW
+# PASS: SW
+# ========================================
+#               TEST DONE
+# ========================================
+# ** Note: $finish    : tb_risc_core.sv(239)
+#    Time: 346 ps  Iteration: 0  Instance: /tb_riscv_core
+# End time: 14:34:01 on Oct 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

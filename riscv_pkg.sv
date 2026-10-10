@@ -24,4 +24,12 @@ localparam logic [3:0] ALU_SLTU = 4'b1001;
 localparam logic [6:0] FUNCT7_BASE = 7'b0000000;
 localparam logic [6:0] FUNCT7_ALT  = 7'b0100000;
 
+// États de la FSM Multi-Cycle
+localparam logic [2:0] S_FETCH   = 3'b000;
+localparam logic [2:0] S_DECODE  = 3'b001;
+localparam logic [2:0] S_EXEC    = 3'b010;
+localparam logic [2:0] S_MEM     = 3'b011;
+localparam logic [2:0] S_WB      = 3'b100;
+localparam logic [2:0] S_BRANCH  = 3'b101;
+
 endpackage
